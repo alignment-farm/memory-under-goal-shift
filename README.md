@@ -1,10 +1,12 @@
 # Memory under goal shift
 
-**Status: first publication accepted; empirical follow-up commissioned, 14 September 2026.**
-Read [FINDINGS.md](FINDINGS.md) for the completed linear study and
-[FOLLOWUP.md](FOLLOWUP.md) for the current investigation: test whether its
-selection-versus-reader distinction survives relaxing one consequential
-simplification. Follow-up preparation has not run experiments.
+**Status: first publication accepted; nonlinear follow-up completed, 14 September 2026.**
+Read [FINDINGS.md](FINDINGS.md) for the preserved linear study and
+[followup/FINDINGS.md](followup/FINDINGS.md) for the new experiment. Learned
+nonlinear codes exhibit both reader failure and exact collision uncertainty;
+broad reconstruction and explicit full records retain all fields. The
+[follow-up reproduction guide](followup/README.md) links protocols and evidence.
+[FOLLOWUP.md](FOLLOWUP.md) preserves the original commission.
 
 This independent ancillary study asks **what learned memory retains for later
 uses that differ from the goals anticipated during memory formation**. It

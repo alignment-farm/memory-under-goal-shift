@@ -1,0 +1,51 @@
+{
+  "status": "post-evaluation algebraic analysis; no additional data or tuning",
+  "script_sha256": "de0e5f9754c1d81a5ff299989f3c6da3ef262f6aba4a3a35f6734eff09783d98",
+  "rows": [
+    {
+      "seed": 0,
+      "changed_ordinary": 2.3899417889246974,
+      "changed_optimal": 0.375,
+      "reader_excess": 2.0149417889246974,
+      "expected_error_product_of_conditional_raw_means": 0.375,
+      "expected_error_conditional_parity_mean": 0.0,
+      "donor_sha256": "8532a462966201dc121cdf1844422cdfd6d22ae2605d5b75a7cf1b96c5c96354"
+    },
+    {
+      "seed": 1,
+      "changed_ordinary": 3.0820361531667055,
+      "changed_optimal": 0.5,
+      "reader_excess": 2.5820361531667055,
+      "expected_error_product_of_conditional_raw_means": 0.5,
+      "expected_error_conditional_parity_mean": 0.0,
+      "donor_sha256": "afdde5967059cc5392d96c40a0b4590db21f0d58368f59681b0751caf2d5b262"
+    },
+    {
+      "seed": 2,
+      "changed_ordinary": 2.0214051747798987,
+      "changed_optimal": 0.25,
+      "reader_excess": 1.7714051747798987,
+      "expected_error_product_of_conditional_raw_means": 0.25,
+      "expected_error_conditional_parity_mean": 0.0,
+      "donor_sha256": "feb0657c2062146a7b5d5fcb5b093791b33d70834f0c6b60aff4ee5fef35f656"
+    },
+    {
+      "seed": 3,
+      "changed_ordinary": 1.5478732794418937,
+      "changed_optimal": 0.25,
+      "reader_excess": 1.2978732794418937,
+      "expected_error_product_of_conditional_raw_means": 0.25,
+      "expected_error_conditional_parity_mean": 0.0,
+      "donor_sha256": "8fde25aa663a8c6076f41fc833a669cd49a71bc8fc211fe849fea62fa24bad37"
+    },
+    {
+      "seed": 4,
+      "changed_ordinary": 2.8828699199264065,
+      "changed_optimal": 0.375,
+      "reader_excess": 2.5078699199264065,
+      "expected_error_product_of_conditional_raw_means": 0.375,
+      "expected_error_conditional_parity_mean": 0.0,
+      "donor_sha256": "7c0a576a64fea591d8ca7528fd9db74ab1273c8455d748002f2d87596b0d22fa"
+    }
+  ]
+}

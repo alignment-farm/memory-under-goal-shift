@@ -1,0 +1,15 @@
+{
+  "representations_verified": 67,
+  "maximum_metric_difference": 0.0,
+  "independent_numpy_conditional_means": true,
+  "exact_risk_decomposition": true,
+  "source_protocol_and_runner_hashes": true,
+  "mechanics": {
+    "sequential_matches_direct": true,
+    "outer_gradients_match": true,
+    "autograd_inner_update_matches": true,
+    "overwrite_other_rows_unchanged": true,
+    "analytic_control_checks": true,
+    "script_sha256": "5c6b69a02cbf4563cf9b90c56cfdeeef525e06fc6de5ec25d6e9db0a8efc791b"
+  }
+}

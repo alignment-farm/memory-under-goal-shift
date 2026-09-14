@@ -1,0 +1,38 @@
+{
+  "development": {
+    "fits": 8,
+    "training_records": 2048000,
+    "training_loop_seconds": 6.115263290994335,
+    "shared_parameter_bytes": [
+      1816,
+      2336
+    ]
+  },
+  "evaluation": {
+    "fits": 20,
+    "training_records": 5120000,
+    "training_loop_seconds": 15.642425251000532,
+    "shared_parameter_bytes": [
+      1816,
+      2336
+    ]
+  },
+  "diagnosis": {
+    "optimizer_phases": 6,
+    "training_records": 96000,
+    "training_loop_seconds": 1.1260237070018775
+  },
+  "matching": {
+    "r2_state_bytes": 64,
+    "r4_state_bytes": 128,
+    "r2_semantic_bits": 16,
+    "r4_semantic_bits": 32,
+    "lookup_table_bytes_r2": 192,
+    "lookup_table_bytes_r4": 768,
+    "fitted_reader_labeled_records": 4096,
+    "exact_reader_support_records": 16,
+    "teacher_compute": 0,
+    "external_model_calls": 0,
+    "scope": "episodic payload matched; total bytes and compute not matched"
+  }
+}

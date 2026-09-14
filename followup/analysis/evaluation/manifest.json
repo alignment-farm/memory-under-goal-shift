@@ -1,0 +1,32 @@
+{
+  "stage": "evaluation",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "ranks": [
+    2,
+    4
+  ],
+  "steps": 2000,
+  "batch_records": 128,
+  "lr": 0.01,
+  "optimizer": "Adam defaults",
+  "fit_histories": 512,
+  "test_histories": 4096,
+  "base": 1700000,
+  "script_sha256": "5c6b69a02cbf4563cf9b90c56cfdeeef525e06fc6de5ec25d6e9db0a8efc791b",
+  "lock_sha256": "4ed2a5c3869403e8cbcf25f08c99a879078bd523a8139205cce592fe427cc70d",
+  "protocol_sha256": "d85f43e41fef5ba12ca50e2b45f8c67415f44007aaeb09aebf65fa5782436ccd",
+  "torch": "2.14.0",
+  "numpy": "2.4.6",
+  "python": "3.14.7",
+  "threads": 1,
+  "device": "cpu",
+  "dtype": "float32",
+  "diagnostic_dtype": "float64",
+  "utc": "2026-09-14T23:36:02Z"
+}
