@@ -1,0 +1,27 @@
+{
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "stages": [
+    {
+      "stage": "development",
+      "training_seconds": 2.048477543001354,
+      "training_records": 3686400,
+      "representations_probed": 54,
+      "sum_probe_solve_seconds": 0.040597872004582314,
+      "sum_test_write_seconds": 0.018772207000438357,
+      "sum_test_read_seconds": 0.0009553769959893543
+    },
+    {
+      "stage": "evaluation",
+      "training_seconds": 10.222189920000346,
+      "training_records": 18432000,
+      "representations_probed": 270,
+      "sum_probe_solve_seconds": 0.18118378699546156,
+      "sum_test_write_seconds": 0.3877777080033411,
+      "sum_test_read_seconds": 0.02611262999016617
+    }
+  ],
+  "teacher_calls": 0,
+  "remote_calls": 0,
+  "notes": "timings exclude acquisition, install, most diagnostics, documentation; probe solve excludes feature writes and probe application"
+}
