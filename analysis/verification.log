@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "representations_reloaded": {
+    "development": 54,
+    "evaluation": 270
+  },
+  "max_numpy_write_difference": 8.215437432568251e-07,
+  "max_covariance_formulation_difference": 2.9261038037020626e-12,
+  "max_expected_acquisition_mse_r_ge_4": 6.8175652959928226e-15,
+  "source_hashes_verified": 15,
+  "script_sha256": "0d1c03a76ae7161d9bdcde28ba4d25216ea14e91528aa01136cf2fb3354dccc4",
+  "checks": [
+    "frozen runner/protocol/lock hashes",
+    "all stored-state hashes",
+    "all ordinary/probe metrics",
+    "full record exact recovery",
+    "probe normal equations on fit histories",
+    "independent NumPy writer and covariance",
+    "every sufficient-capacity expected fit acquired",
+    "source cache hashes"
+  ],
+  "training_reruns": 0,
+  "supplement_representations_verified": 30,
+  "supplement_result_sha256": "ca91ceb66b83ab927b843a856615c7c3b9a10be62d315b18bd0c8c2b643f99d4"
+}

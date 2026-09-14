@@ -118,7 +118,7 @@
     "analysis/evaluation/rho0.8-s4-r8-controls.json": "e87f317f2a185862b8400d633353ee5cfb6b770ecd318bad3f4f998d0cdbd36a",
     "analysis/evaluation/rho0.8-s4-r8-expected.json": "6d2e384fb957aa883b1a0e0e6cd3ba56556dd3f30ce435fb3805f5181020375f"
   },
-  "script_sha256": "82ce866b947882c5cf02256d28b6341036fe4d6bb1c94640693932e428be48d3",
+  "script_sha256": "0d1c03a76ae7161d9bdcde28ba4d25216ea14e91528aa01136cf2fb3354dccc4",
   "checks": [
     "frozen runner/protocol/lock hashes",
     "all stored-state hashes",
@@ -129,5 +129,7 @@
     "every sufficient-capacity expected fit acquired",
     "source cache hashes"
   ],
-  "training_reruns": 0
+  "training_reruns": 0,
+  "supplement_representations_verified": 30,
+  "supplement_result_sha256": "ca91ceb66b83ab927b843a856615c7c3b9a10be62d315b18bd0c8c2b643f99d4"
 }

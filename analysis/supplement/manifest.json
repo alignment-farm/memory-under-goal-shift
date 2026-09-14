@@ -1,0 +1,31 @@
+{
+  "protocol_sha256": "c73de4d54ba618c5b36bc2cbefb67eced75c1946d63a2e43dfd35d0290e215ce",
+  "runner_sha256": "e03a039e22428075057057f7d168a4a56bee7bac4ffd5a19a5a5920b9d99dcb6",
+  "engine_sha256": "e256a7e7cf47e559ed40fcc797885f5f5a1b2e1ce49e0327284dc089b3fa0442",
+  "seed_base": 810000,
+  "episodes": 2048,
+  "source_results": {
+    "analysis/evaluation/rho0.0-s0-r4-expected.json": "e4b58f7eecf2ea579806cbea6926bca68fe7c6856dc4f37fb8c293ba9c9a1084",
+    "analysis/evaluation/rho0.0-s0-r4-broad.json": "c58a71d453017e1cc961d2b6db8c2f000bb9d6e4d5080548e71934ded620b922",
+    "analysis/evaluation/rho0.0-s1-r4-expected.json": "0c1f0f106e17c9089da5c102b9d13a6a74806d0c5a25f616944f771b10485dd1",
+    "analysis/evaluation/rho0.0-s1-r4-broad.json": "b240651d607cac80a0dcc0876e802267ddc576b3807b1bb09618d03f3c683855",
+    "analysis/evaluation/rho0.0-s2-r4-expected.json": "5f8471e04b0ad73f11088ef9531305c57ed298f052529db7d4ea24bc02a6cac6",
+    "analysis/evaluation/rho0.0-s2-r4-broad.json": "af28d3c1c7fa593cf00ef71aaae1f3e3de795f49d925d090b27c4a2fd558109b",
+    "analysis/evaluation/rho0.0-s3-r4-expected.json": "a271c864ae8690a6301d99c7825a5e2d778f907318e52731d186a280b6768e3d",
+    "analysis/evaluation/rho0.0-s3-r4-broad.json": "16ba76c85390fb63137cda9bbff81c50bb9eb6feb173c495b06f5de270a45723",
+    "analysis/evaluation/rho0.0-s4-r4-expected.json": "89c81f88743155edb45e83d1759a166b16051eb535868d20615f0b663f730c75",
+    "analysis/evaluation/rho0.0-s4-r4-broad.json": "e7716b53900a0ff51594977a2b9bd82aa19626c684b5d456a8f40c1e54f6379e",
+    "analysis/evaluation/rho0.8-s0-r4-expected.json": "94ecba079ec6c8d83d07deb5df4ce3be462485c9aec595c93f27871535295c5b",
+    "analysis/evaluation/rho0.8-s0-r4-broad.json": "5222dbf2bb7382abd54cd7fa05ac80f12692a2f13470537b7a9f52884ad0a3b8",
+    "analysis/evaluation/rho0.8-s1-r4-expected.json": "0504591c5b7f78f8ca39b944082164bf0b43bfe40b112336124ce72db6a73542",
+    "analysis/evaluation/rho0.8-s1-r4-broad.json": "50acf165f32742af16ff6a4df7cd7da0dc153aad3b3f15203d87ce3cf0150836",
+    "analysis/evaluation/rho0.8-s2-r4-expected.json": "6e4434479e457d3635d8e4896c15561ba3f65bf8d96ca6736426fb6de022225c",
+    "analysis/evaluation/rho0.8-s2-r4-broad.json": "da2f0967e61f6d7b4203422f91f05d9f0d09c6df23996181bb52e9dd2b0b7dec",
+    "analysis/evaluation/rho0.8-s3-r4-expected.json": "7effa463f3174febb552f362a04e6aeb8e82f4547f4cbc8bca087f68f92676fd",
+    "analysis/evaluation/rho0.8-s3-r4-broad.json": "2c9b6ff3be2f9182147432b260bc622781f5a75f4c9cba78fe01238b02feda49",
+    "analysis/evaluation/rho0.8-s4-r4-expected.json": "f1fb846c0a41178ad572fdfbdf5aeeade05ca31988fd5a3ca174bdaa1d3a8fcd",
+    "analysis/evaluation/rho0.8-s4-r4-broad.json": "69ad3c2a3d18cdcc5bdcd5209489173c554d48fa54ac975b4efdf519826ab865"
+  },
+  "torch": "2.14.0",
+  "started_utc": "2026-09-14T20:46:49Z"
+}

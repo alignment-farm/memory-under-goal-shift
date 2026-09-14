@@ -72,5 +72,24 @@ def main():
  'checks':['frozen runner/protocol/lock hashes','all stored-state hashes','all ordinary/probe metrics',
  'full record exact recovery','probe normal equations on fit histories','independent NumPy writer and covariance',
  'every sufficient-capacity expected fit acquired','source cache hashes'],'training_reruns':0}
+ supplement=ex.R/'analysis/supplement'
+ sm=json.loads((supplement/'manifest.json').read_text())
+ assert sm['protocol_sha256']==ex.sha(ex.R/'notes/SUPPLEMENT_PROTOCOL.md')
+ assert sm['runner_sha256']==ex.sha(ex.R/'scripts/supplement.py')
+ assert sm['engine_sha256']==ex.sha(ex.__file__)
+ for path,h in sm['source_results'].items():assert ex.sha(ex.R/path)==h
+ sr=json.loads((supplement/'results.json').read_text())['rows']
+ for r in sr:
+  x=ex.data(2048,r['rho'],810000+r['seed'])
+  if r['condition']=='explicit_pair_sum':
+   e=torch.cat([torch.eye(4),torch.eye(4)],0)/2**.5
+  else:
+   donor=ex.R/'analysis/evaluation'/f"rho{r['rho']}-s{r['seed']}-r4-{r['condition']}.json"
+   e=torch.tensor(json.loads(donor.read_text())['final_e'])
+  w=ex.write(x,e)
+  assert ex.digest(x)==r['data_sha256'];assert ex.digest(w)==r['state_sha256']
+  compare(r['ordinary'],ex.metrics(w@e.T,x))
+ out['supplement_representations_verified']=len(sr)
+ out['supplement_result_sha256']=ex.sha(supplement/'results.json')
  ex.dump(ex.R/'analysis/verification.json',out);print(json.dumps({k:v for k,v in out.items() if k!='result_hashes'},indent=2))
 if __name__=='__main__':main()

@@ -22,6 +22,6 @@
     }
   ],
   "teacher_calls": 0,
-  "remote_calls": 0,
+  "remote_model_calls": 0,
   "notes": "timings exclude acquisition, install, most diagnostics, documentation; probe solve excludes feature writes and probe application"
 }

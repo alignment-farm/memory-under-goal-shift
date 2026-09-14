@@ -1,0 +1,38 @@
+[
+  {
+    "rho": 0.0,
+    "condition": "expected",
+    "expected": 4.218638232585026e-15,
+    "changed": 0.9977236548196862
+  },
+  {
+    "rho": 0.0,
+    "condition": "broad",
+    "expected": 0.5784430364583059,
+    "changed": 0.4204685248645646
+  },
+  {
+    "rho": 0.0,
+    "condition": "explicit_pair_sum",
+    "expected": 0.5010730493236786,
+    "changed": 0.5010730491779004
+  },
+  {
+    "rho": 0.8,
+    "condition": "expected",
+    "expected": 4.656529583856569e-15,
+    "changed": 1.0000460592125284
+  },
+  {
+    "rho": 0.8,
+    "condition": "broad",
+    "expected": 0.10005922896416411,
+    "changed": 0.10126876449388185
+  },
+  {
+    "rho": 0.8,
+    "condition": "explicit_pair_sum",
+    "expected": 0.09992043397428943,
+    "changed": 0.0999204339315799
+  }
+]
