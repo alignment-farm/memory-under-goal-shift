@@ -1,0 +1,25 @@
+{
+  "files": {
+    "sources/2607.09415v1.txt": "570a8e85d62e7c3aaba225efb3f8e770396b2a07bb235b8b66baf65bff435868",
+    "sources/official-ttt.py": "5386ca299328e0d6ffe7b783b09a462023b02b9a0906cba01d83f482ed5b7484",
+    "sources/official-LICENSE": "d30f6f9ef238e7d70aa80add6a93b4e2e71b46d5f987b28a4bf235db8def302c",
+    "sources/2608.01672v1.html": "4ae22ad4a72925d8dd24ff050a88b9c4da21349d64b73bef1532ebd6bbf486cf",
+    "sources/2407.04620v4.html": "2119277c910832a78fbaa20727c73c17f0e1e8796b15f3b6d01806cc573fd8e7",
+    "sources/metadata.xml": "69ec8675492961f02c9ea1fae968d0199a9df6b869371ed1539efb944f0a1f3b",
+    "sources/official-README.md": "767e60f42ccdb02ad3c3c5d3037f17ed48d5541a08b9f704189782aa7aaeb60e",
+    "sources/README.md": "39717ac21024e6dbfeef109f9ef40563e675b83471e00a58cc3bb84f72ea31bf",
+    "sources/2607.09415v1.html": "53f991f66866ab8dbee9c515c31ec7b575c42314dea3c38d0876110ea4ba2183",
+    "sources/2507.06415v3.html": "948d05b60efa246755883d2910c4d9ec55e7f4efce0ab203125a88c98fc68eea",
+    "sources/2608.01672v1.txt": "35f39b0349086476d92783af1c67c88c583a40f5b09203426d1f29bd615e2178",
+    "sources/official-repo.json": "1445d536a63e70049682e77d639305b2f469187ab488460c49d5774748f9bbef",
+    "sources/2407.04620v4.sections.txt": "c7159737b68cba163ad57291ef74f421337bdd0dd917680ad46f6f75c464d486",
+    "sources/2507.06415v3.txt": "03df3b8e7e5d3ec6abb4da480bf5f01efc5f79efa40be3976be22a13052917c4",
+    "sources/retrieval.json": "c482095e363657d92f87d32e9e169cd83e9efc81e7d199159b1313ec773be65f"
+  },
+  "sibling_source_revision": "4a8dfd1299d11478635e6a13f5fb64564269ba61",
+  "copied_unchanged": [
+    "2407.04620v4.html",
+    "2407.04620v4.sections.txt"
+  ],
+  "official_code_revision": "cd831db10c8c9a0f6340f02da5613316a8a92b67"
+}

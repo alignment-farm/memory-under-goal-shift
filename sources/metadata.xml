@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/nWjXdkeaD57Keluc137mCb9E+hc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2407.04620v4,2507.06415v3,2608.01672v1,2607.09415v1&amp;start=0&amp;max_results=4</title>
+  <updated>2026-09-14T20:37:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=4&amp;id_list=2407.04620v4,2507.06415v3,2608.01672v1,2607.09415v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>4</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2407.04620v4</id>
+    <title>Learning to (Learn at Test Time): RNNs with Expressive Hidden States</title>
+    <updated>2025-08-31T18:32:59Z</updated>
+    <link href="https://arxiv.org/abs/2407.04620v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.04620v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-attention performs well in long context but has quadratic complexity. Existing RNN layers have linear complexity, but their performance in long context is limited by the expressive power of their hidden states. We present a practical framework for instantiating sequence modeling layers with linear complexity and expressive hidden states. The key idea is to make the hidden state a machine learning model itself, and the update rule a step of self-supervised learning. Since the hidden state is updated by training even on test sequences, our layers are called Test-Time Training (TTT) layers. We consider two instantiations: TTT-Linear and TTT-MLP, whose hidden state is a linear model and a two-layer MLP respectively. We evaluate our instantiations at the scale of 125M to 1.3B parameters, comparing with a strong Transformer and Mamba, a modern RNN. Similar to Transformer, TTT-Linear and TTT-MLP can keep reducing perplexity by conditioning on more tokens, while Mamba cannot after 16k context. TTT-MLP still faces challenges in memory I/O, but shows larger potential in long context, pointing to a promising direction for future research.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-05T16:23:20Z</published>
+    <arxiv:comment>The current version contains updates on related work and limitations. All experiments were completed in the first version</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yu Sun</name>
+    </author>
+    <author>
+      <name>Xinhao Li</name>
+    </author>
+    <author>
+      <name>Karan Dalal</name>
+    </author>
+    <author>
+      <name>Jiarui Xu</name>
+    </author>
+    <author>
+      <name>Arjun Vikram</name>
+    </author>
+    <author>
+      <name>Genghan Zhang</name>
+    </author>
+    <author>
+      <name>Yann Dubois</name>
+    </author>
+    <author>
+      <name>Xinlei Chen</name>
+    </author>
+    <author>
+      <name>Xiaolong Wang</name>
+    </author>
+    <author>
+      <name>Sanmi Koyejo</name>
+    </author>
+    <author>
+      <name>Tatsunori Hashimoto</name>
+    </author>
+    <author>
+      <name>Carlos Guestrin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.06415v3</id>
+    <title>PERK: Long-Context Reasoning as Test-Time Learning</title>
+    <updated>2026-08-31T15:26:53Z</updated>
+    <link href="https://arxiv.org/abs/2507.06415v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.06415v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-context reasoning requires accurately identifying relevant information in extensive, noisy input contexts. In this work, we propose PERK (Parameter Efficient Reasoning over Knowledge), a scalable approach for learning to encode long contexts using gradient updates at test time. Specifically, PERK employs two nested optimization loops in a meta-training phase. The inner loop rapidly encodes contexts into a low-rank adapter (LoRA) that serves as a parameter-efficient memory module for the base model. Concurrently, the outer loop learns to use the updated adapter to accurately recall and reason over relevant information from the encoded long context. Our evaluations on several long-context reasoning tasks show that PERK significantly outperforms the standard long-context finetuning, achieving average absolute performance gains of up to 20% for Qwen-2.5 (0.5B &amp; 7B) on synthetic and real-world long-context reasoning. PERK also maintains its advantages across model scales and families. Compared to specialized long-context LLMs, PERK matches or surpasses their performance. Finally, our analyses show PERK is more robust to reasoning complexity, length extrapolation, and the positions of relevant information in contexts. https://perk-long-context.web.app</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-08T21:38:45Z</published>
+    <arxiv:comment>ICLR 2026, 10 pages, 7 figures, test-time learning, long context, meta-learning</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>The Fourteenth International Conference on Learning Representations, 2026</arxiv:journal_ref>
+    <author>
+      <name>Zeming Chen</name>
+    </author>
+    <author>
+      <name>Angelika Romanou</name>
+    </author>
+    <author>
+      <name>Gail Weiss</name>
+    </author>
+    <author>
+      <name>Antoine Bosselut</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.01672v1</id>
+    <title>Learning What to Remember: Test-Time Training via Context Distillation</title>
+    <updated>2026-08-03T04:06:06Z</updated>
+    <link href="https://arxiv.org/abs/2608.01672v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.01672v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Effective long-context modeling is not merely about retaining more of the past, but about preserving the information that may prove relevant later. Test-time training (TTT) is an appealing approach that performs online parameter updates for long-context modeling, yet existing TTT methods only optimize either reconstruction or online adaptation objectives without considering the future utility of retained information. In this work, we propose \textbf{T}est-\textbf{T}ime \textbf{C}ontext \textbf{D}istillation (TTCD), a TTT framework that introduces a self-supervised objective for allocating limited memory capacity for future use. Specifically, TTCD uses a long-window teacher to supervise the fast weights of a short-window student, where the hidden-state discrepancy between them offers a dense, self-supervised signal guiding the model to memorize the contextual information crucial for future token predictions. We focus on an in-place variant: In-Place TTCD (IP-TTCD), which uses the existing MLP parameters as the fast weights. Experiments on long-context language modeling tasks show IP-TTCD consistently outperforms DeltaNet, Gated DeltaNet, sliding-window attention, and TTT when pre-trained from scratch. Furthermore, IP-TTCD allows pre-trained transformer models to adapt their parameters during inference through continual pre-training, gaining long-context capabilities with only a lightweight architectural augmentation. Our results position TTCD as a step toward architectural continual learning.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-03T04:06:06Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zixuan Wang</name>
+    </author>
+    <author>
+      <name>Xingyu Dang</name>
+    </author>
+    <author>
+      <name>Rui-Jie Zhu</name>
+    </author>
+    <author>
+      <name>Zixin Wen</name>
+    </author>
+    <author>
+      <name>Hengyu Fu</name>
+    </author>
+    <author>
+      <name>Wenhao Chai</name>
+    </author>
+    <author>
+      <name>Jason D. Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.09415v1</id>
+    <title>Self-Guided Test-Time Training for Long-Context LLMs</title>
+    <updated>2026-07-10T13:45:56Z</updated>
+    <link href="https://arxiv.org/abs/2607.09415v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.09415v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-context processing has become increasingly important for large language models (LLMs), but simply extending the context window does not guarantee effective utilization of long inputs. As input length grows, accuracy often degrades, indicating that models still struggle to identify and use the evidence most relevant to a question. A promising way to improve long-context utilization is test-time training (TTT), which treats the test context as a training example for instance-specific parameter adaptation. However, applying TTT to the entire long context is prohibitively expensive, while adapting on randomly sampled spans introduces severe noise. Because most spans in a long context are irrelevant to the specific question, training on them may even degrade the base model's performance. Our preliminary study shows that TTT is highly sensitive to training-span quality: on LongBench-v2, TTT on randomly sampled spans hurts performance, whereas TTT on oracle spans substantially improves it. Motivated by this, we propose a simple method, Self-Guided TTT (S-TTT): before adaptation, the model identifies the evidence spans it should learn from, and the standard language-modeling training objective is applied only to those selected spans. On two challenging long-context reasoning benchmarks, LongBench-v2 and LongBench-Pro, S-TTT improves accuracy for both Qwen3-4B-Thinking-2507 and Llama-3.1-8B-Instruct, achieving up to a 15% relative improvement.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-10T13:45:56Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xinyu Zhu</name>
+    </author>
+    <author>
+      <name>Zhe Xu</name>
+    </author>
+    <author>
+      <name>Xiaohan Wei</name>
+    </author>
+    <author>
+      <name>Yunchen Pu</name>
+    </author>
+    <author>
+      <name>Fei Tian</name>
+    </author>
+    <author>
+      <name>Chonglin Sun</name>
+    </author>
+    <author>
+      <name>Kaushik Rangadurai</name>
+    </author>
+    <author>
+      <name>Hua Zhi</name>
+    </author>
+    <author>
+      <name>Frank Shyu</name>
+    </author>
+    <author>
+      <name>Sandeep Pandey</name>
+    </author>
+    <author>
+      <name>Luke Simon</name>
+    </author>
+    <author>
+      <name>Yu Meng</name>
+    </author>
+    <author>
+      <name>Xi Liu</name>
+    </author>
+  </entry>
+</feed>

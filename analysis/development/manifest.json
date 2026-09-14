@@ -1,0 +1,35 @@
+{
+  "stage": "development",
+  "seeds": [
+    90,
+    91
+  ],
+  "rhos": [
+    0.0
+  ],
+  "ranks": [
+    2,
+    4,
+    8
+  ],
+  "steps": 1200,
+  "lr": 0.02,
+  "optimizer": "Adam, no weight decay",
+  "batch_episodes": 32,
+  "records_per_episode": 8,
+  "eval_episodes": 256,
+  "probe_fit_episodes": 1024,
+  "data_seed_base": 900000,
+  "torch": "2.14.0",
+  "torch_revision": "08187d9e0fba026dc8217405802ab5381dc88d90",
+  "numpy": "2.4.6",
+  "python": "3.14.7",
+  "device": "cpu",
+  "threads": 1,
+  "dtype": "float32",
+  "probe_dtype": "float64",
+  "script_sha256": "e256a7e7cf47e559ed40fcc797885f5f5a1b2e1ce49e0327284dc089b3fa0442",
+  "protocol_sha256": "3558f024c4f47cc8a411e1893910f189c4e93aa831865428a01eb97d06a94954",
+  "lock_sha256": "4ed2a5c3869403e8cbcf25f08c99a879078bd523a8139205cce592fe427cc70d",
+  "started_utc": "2026-09-14T20:41:01Z"
+}
