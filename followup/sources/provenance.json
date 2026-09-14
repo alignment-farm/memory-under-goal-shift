@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-14",
+  "accepted_study_revision": "968c4d89960ef54849dc3625b2a9991cde128cae",
+  "upstream_ttt_revision": "cd831db10c8c9a0f6340f02da5613316a8a92b67",
+  "files": {
+    "sources/2407.04620v4.html": "2119277c910832a78fbaa20727c73c17f0e1e8796b15f3b6d01806cc573fd8e7",
+    "sources/2407.04620v4.sections.txt": "c7159737b68cba163ad57291ef74f421337bdd0dd917680ad46f6f75c464d486",
+    "sources/official-ttt.py": "5386ca299328e0d6ffe7b783b09a462023b02b9a0906cba01d83f482ed5b7484",
+    "followup/sources/1308.3432v1.html": "0d5401768b70636ff78679effbbf2bee877132175ee63c3cc1ac4c5da59b103a"
+  },
+  "metadata_access": [
+    "HTTP429; response not retained",
+    "retry >3s later; timeout 30s; no response"
+  ],
+  "html_url": "https://arxiv.org/html/1308.3432v1",
+  "html_status": 200
+}
