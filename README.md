@@ -1,7 +1,10 @@
 # Memory under goal shift
 
-**Status: bounded empirical study completed and published, 14 September 2026.**
-Read [FINDINGS.md](FINDINGS.md) for the question, results and limitations.
+**Status: first publication accepted; empirical follow-up commissioned, 14 September 2026.**
+Read [FINDINGS.md](FINDINGS.md) for the completed linear study and
+[FOLLOWUP.md](FOLLOWUP.md) for the current investigation: test whether its
+selection-versus-reader distinction survives relaxing one consequential
+simplification. Follow-up preparation has not run experiments.
 
 This independent ancillary study asks **what learned memory retains for later
 uses that differ from the goals anticipated during memory formation**. It
@@ -80,8 +83,9 @@ simplification:
   views and gradient-updated recurrent state; the elementary implementation lead.
 
 The sibling [neural-memory-depth](../neural-memory-depth/README.md) supplied
-pinned reading artifacts, but no executable dependency. The present study stops
-on explanatory progress; it does not close the broader question for nonlinear
-memories or language-model agents. [AGENTS.md](AGENTS.md) retains the operating
+pinned reading artifacts, but no executable dependency. The first study reached
+explanatory closure within its linear setting. The commissioned
+[follow-up](FOLLOWUP.md) extends that setting while preserving the accepted
+publication and evidence. [AGENTS.md](AGENTS.md) retains the operating
 instructions and available resources. Root synthesis remains separate under
 the [ancillary-study approach](../../construct-2/notes/ANCILLARY_STUDY.md).
