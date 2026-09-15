@@ -1,0 +1,107 @@
+{
+  "new_gradient_training_seconds": 0,
+  "teacher_calls": 0,
+  "external_model_calls": 0,
+  "evaluation_unique_histories": 40960,
+  "development_unique_histories": 1024,
+  "evaluation_query_answers_per_representation": 204800,
+  "notes": "Times are single batch calls, exclude RNG, I/O, setup and verification. Alternative fit includes calibration write. Training costs are prior sunk donor costs; also listed for rebuild. Explicit controls need neither fitting nor support enumeration in deployment: formulas suffice.",
+  "per_representation": {
+    "expected": {
+      "state_bytes": 512,
+      "semantic_bits": 128,
+      "shared_parameter_bytes": 2336,
+      "fitted_table_bytes": 768,
+      "fitting_count_bytes": 128,
+      "seconds_per_8192_histories_mean": {
+        "write": 0.04045187520023319,
+        "query_state_gather": 0.0003629501999967033,
+        "ordinary_read": 0.005015567000373267,
+        "fitted_reader_build_including_write": 0.0011841499999718508,
+        "exact_reader_build": 6.469180007115938e-05,
+        "fitted_read": 0.0010457084004883654,
+        "exact_read": 0.0010156245993130143
+      },
+      "bundled_query_state_values_read": 16,
+      "standalone_query_state_values_needed": {
+        "expected": 4,
+        "parity2": 8,
+        "parity4": 16,
+        "agree_ab": 8
+      }
+    },
+    "broad": {
+      "state_bytes": 512,
+      "semantic_bits": 128,
+      "shared_parameter_bytes": 2336,
+      "fitted_table_bytes": 768,
+      "fitting_count_bytes": 128,
+      "seconds_per_8192_histories_mean": {
+        "write": 0.03943773339997279,
+        "query_state_gather": 0.0003591333999793278,
+        "ordinary_read": 0.00503019999996468,
+        "fitted_reader_build_including_write": 0.001183950200356776,
+        "exact_reader_build": 6.025840048096143e-05,
+        "fitted_read": 0.0010699752001528395,
+        "exact_read": 0.001027191599860089
+      },
+      "bundled_query_state_values_read": 16,
+      "standalone_query_state_values_needed": {
+        "expected": 4,
+        "parity2": 8,
+        "parity4": 16,
+        "agree_ab": 8
+      }
+    },
+    "full_raw": {
+      "state_bytes": 512,
+      "semantic_bits": 128,
+      "shared_parameter_bytes": 0,
+      "fitted_table_bytes": 768,
+      "fitting_count_bytes": 128,
+      "seconds_per_8192_histories_mean": {
+        "write": 0.006039058600435965,
+        "query_state_gather": 0.00035696699960681145,
+        "ordinary_read": 0.0004137161999096861,
+        "fitted_reader_build_including_write": 0.0005151333996764151,
+        "exact_reader_build": 2.1608200040645897e-05,
+        "fitted_read": 0.0010473831996932858,
+        "exact_read": 0.0010582415998214856
+      },
+      "bundled_query_state_values_read": 16,
+      "standalone_query_state_values_needed": {
+        "expected": 4,
+        "parity2": 8,
+        "parity4": 16,
+        "agree_ab": 8
+      }
+    },
+    "parities": {
+      "state_bytes": 256,
+      "semantic_bits": 64,
+      "shared_parameter_bytes": 0,
+      "fitted_table_bytes": 192,
+      "fitting_count_bytes": 32,
+      "seconds_per_8192_histories_mean": {
+        "write": 0.006328100000246195,
+        "query_state_gather": 0.00033098340027208905,
+        "ordinary_read": 0.0004905996000161394,
+        "fitted_reader_build_including_write": 0.000529124800232239,
+        "exact_reader_build": 2.6966599762090482e-05,
+        "fitted_read": 0.0008351499996933853,
+        "exact_read": 0.000820741600182373
+      },
+      "bundled_query_state_values_read": 8,
+      "standalone_query_state_values_needed": {
+        "expected": 2,
+        "parity2": 4,
+        "parity4": 8,
+        "agree_ab": 4
+      }
+    }
+  },
+  "donor_rebuild_training_seconds": 10.72659349899186,
+  "donor_rebuild_training_records": 3584000,
+  "new_measured_pipeline_seconds": 0.6037648370056559,
+  "verification_seconds": 3.4447737079990475
+}

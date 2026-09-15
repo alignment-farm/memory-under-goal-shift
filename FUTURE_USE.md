@@ -1,6 +1,8 @@
 # Memory for later combinations and relations
 
-**Third phase commissioned, 15 September 2026. Preparation has not run experiments.**
+**Third phase completed, 15 September 2026.** See [findings](future-use/FINDINGS.md)
+and [reproduction](future-use/README.md). The original commission follows;
+preparation itself ran no experiments.
 
 **When does learned memory support later uses whose relevant combinations or
 relations are not directly covered by writer training, and how do we distinguish

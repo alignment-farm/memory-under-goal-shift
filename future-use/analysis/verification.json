@@ -1,0 +1,10 @@
+{
+  "representations": 28,
+  "exhaustive_tuples_each": 65536,
+  "max_metric_difference": 0.0,
+  "independent_conditional_grouping": true,
+  "population_decomposition": true,
+  "data_fit_query_state_hashes": true,
+  "script_sha256": "0fd81453fd699b92fb9e1e29ff9b16cd14b4a688e92643de0c851ba2625811ad",
+  "seconds": 3.4447737079990475
+}

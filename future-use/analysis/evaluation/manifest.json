@@ -1,0 +1,34 @@
+{
+  "stage": "evaluation",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "histories_per_seed": 8192,
+  "fit_records": 4096,
+  "base": 7300000,
+  "script_sha256": "4e32b09743ca4388b0048d18d5399389565819905c0eeb54bda9c29257e2916e",
+  "protocol_sha256": "0c8744231466a4f2a30b79a3b0e3a04f91c63bc8daf752f7479fddeb829e1676",
+  "lock_sha256": "4ed2a5c3869403e8cbcf25f08c99a879078bd523a8139205cce592fe427cc70d",
+  "python": "3.14.7",
+  "torch": "2.14.0",
+  "numpy": "2.4.6",
+  "threads": 1,
+  "device": "cpu",
+  "donors": {
+    "s0-r4-expected.json": "8532a462966201dc121cdf1844422cdfd6d22ae2605d5b75a7cf1b96c5c96354",
+    "s0-r4-broad.json": "d066e6305d796db25081a6e2b72cc6b328338b4e15242f857f7bed8c81c6a752",
+    "s1-r4-expected.json": "afdde5967059cc5392d96c40a0b4590db21f0d58368f59681b0751caf2d5b262",
+    "s1-r4-broad.json": "fc66f87be96668ab78d593bd5a810c0cb330334283eccbde28a8da8a655ce14e",
+    "s2-r4-expected.json": "feb0657c2062146a7b5d5fcb5b093791b33d70834f0c6b60aff4ee5fef35f656",
+    "s2-r4-broad.json": "146ebced05afcd088ff51c7b791d84cf56c8a1d90e8a149d6338c0fce9f3e99e",
+    "s3-r4-expected.json": "8fde25aa663a8c6076f41fc833a669cd49a71bc8fc211fe849fea62fa24bad37",
+    "s3-r4-broad.json": "a92d03470a3181152c68780e781eba345c3dc0693d693ef4469b031c8a0f57b7",
+    "s4-r4-expected.json": "7c0a576a64fea591d8ca7528fd9db74ab1273c8455d748002f2d87596b0d22fa",
+    "s4-r4-broad.json": "d5d78543ca1d2a5a1ed1d524fbae1e0acf05a2e39f9e46c0ef0562b8a87289ee"
+  },
+  "utc": "2026-09-15T08:49:24Z"
+}

@@ -1,0 +1,617 @@
+{
+  "seed": 2,
+  "objective": "broad",
+  "acquisition_mse": 1.2550082381138114e-07,
+  "donor_training_seconds": 0.769761165996897,
+  "donor_training_records": 256000,
+  "shared_parameter_bytes": 2336,
+  "result": {
+    "metrics": {
+      "ordinary": {
+        "expected_ab": {
+          "mse": 1.2923932809494687e-07,
+          "accuracy": 1.0
+        },
+        "expected_cd": {
+          "mse": 1.2199816764915539e-07,
+          "accuracy": 1.0
+        },
+        "parity2": {
+          "mse": 2.5265358034461466e-07,
+          "accuracy": 1.0
+        },
+        "parity4": {
+          "mse": 5.598436962718145e-07,
+          "accuracy": 1.0
+        },
+        "agree_ab": {
+          "mse": 1.3238570664503298e-07,
+          "accuracy": 1.0
+        }
+      },
+      "clipped": {
+        "expected_ab": {
+          "mse": 9.284272768125486e-08,
+          "accuracy": 1.0
+        },
+        "expected_cd": {
+          "mse": 5.447147292241066e-08,
+          "accuracy": 1.0
+        },
+        "parity2": {
+          "mse": 1.9270584707400392e-07,
+          "accuracy": 1.0
+        },
+        "parity4": {
+          "mse": 4.6764037794406535e-07,
+          "accuracy": 1.0
+        },
+        "agree_ab": {
+          "mse": 9.867527862272251e-08,
+          "accuracy": 1.0
+        }
+      },
+      "fitted": {
+        "expected_ab": {
+          "mse": 0.0,
+          "accuracy": 1.0
+        },
+        "expected_cd": {
+          "mse": 0.0,
+          "accuracy": 1.0
+        },
+        "parity2": {
+          "mse": 0.0,
+          "accuracy": 1.0
+        },
+        "parity4": {
+          "mse": 0.0,
+          "accuracy": 1.0
+        },
+        "agree_ab": {
+          "mse": 0.0,
+          "accuracy": 1.0
+        }
+      },
+      "exact": {
+        "expected_ab": {
+          "mse": 0.0,
+          "accuracy": 1.0
+        },
+        "expected_cd": {
+          "mse": 0.0,
+          "accuracy": 1.0
+        },
+        "parity2": {
+          "mse": 0.0,
+          "accuracy": 1.0
+        },
+        "parity4": {
+          "mse": 0.0,
+          "accuracy": 1.0
+        },
+        "agree_ab": {
+          "mse": 0.0,
+          "accuracy": 1.0
+        }
+      }
+    },
+    "population_optimal_mse": {
+      "expected_ab": 0.0,
+      "expected_cd": 0.0,
+      "parity2": 0.0,
+      "parity4": 0.0,
+      "agree_ab": 0.0
+    },
+    "decomposition": {
+      "ordinary": {
+        "expected_ab": {
+          "conditional_variance": 0.0,
+          "reader_excess": 1.2923932809494687e-07,
+          "finite_sample_cross_term": 0.0,
+          "sample_noise": 0.0
+        },
+        "expected_cd": {
+          "conditional_variance": 0.0,
+          "reader_excess": 1.2199816764915539e-07,
+          "finite_sample_cross_term": 0.0,
+          "sample_noise": 0.0
+        },
+        "parity2": {
+          "conditional_variance": 0.0,
+          "reader_excess": 2.5265358034461466e-07,
+          "finite_sample_cross_term": 0.0,
+          "sample_noise": 0.0
+        },
+        "parity4": {
+          "conditional_variance": 0.0,
+          "reader_excess": 5.598436962718145e-07,
+          "finite_sample_cross_term": 0.0,
+          "sample_noise": 0.0
+        },
+        "agree_ab": {
+          "conditional_variance": 0.0,
+          "reader_excess": 1.3238570664503298e-07,
+          "finite_sample_cross_term": 0.0,
+          "sample_noise": 0.0
+        }
+      },
+      "clipped": {
+        "expected_ab": {
+          "conditional_variance": 0.0,
+          "reader_excess": 9.284272768125486e-08,
+          "finite_sample_cross_term": 0.0,
+          "sample_noise": 0.0
+        },
+        "expected_cd": {
+          "conditional_variance": 0.0,
+          "reader_excess": 5.447147292241066e-08,
+          "finite_sample_cross_term": 0.0,
+          "sample_noise": 0.0
+        },
+        "parity2": {
+          "conditional_variance": 0.0,
+          "reader_excess": 1.9270584707400392e-07,
+          "finite_sample_cross_term": 0.0,
+          "sample_noise": 0.0
+        },
+        "parity4": {
+          "conditional_variance": 0.0,
+          "reader_excess": 4.6764037794406535e-07,
+          "finite_sample_cross_term": 0.0,
+          "sample_noise": 0.0
+        },
+        "agree_ab": {
+          "conditional_variance": 0.0,
+          "reader_excess": 9.867527862272251e-08,
+          "finite_sample_cross_term": 0.0,
+          "sample_noise": 0.0
+        }
+      },
+      "fitted": {
+        "expected_ab": {
+          "conditional_variance": 0.0,
+          "reader_excess": 0.0,
+          "finite_sample_cross_term": 0.0,
+          "sample_noise": 0.0
+        },
+        "expected_cd": {
+          "conditional_variance": 0.0,
+          "reader_excess": 0.0,
+          "finite_sample_cross_term": 0.0,
+          "sample_noise": 0.0
+        },
+        "parity2": {
+          "conditional_variance": 0.0,
+          "reader_excess": 0.0,
+          "finite_sample_cross_term": 0.0,
+          "sample_noise": 0.0
+        },
+        "parity4": {
+          "conditional_variance": 0.0,
+          "reader_excess": 0.0,
+          "finite_sample_cross_term": 0.0,
+          "sample_noise": 0.0
+        },
+        "agree_ab": {
+          "conditional_variance": 0.0,
+          "reader_excess": 0.0,
+          "finite_sample_cross_term": 0.0,
+          "sample_noise": 0.0
+        }
+      }
+    },
+    "state_sha256": "e6c49c23b522e5f0c759994848a986ae38b2ae4cf4ab892b9bc3fa75383a92a0",
+    "data_sha256": "6f750f08de95792be7c1979075e8bbeeb99f948bdb5e76ecfa40c2166749ccb5",
+    "fit_sha256": "f405997ef0233f61aafebac3ba6c67a0e0014c8fa68bc65ea8537f4c5e144407",
+    "query_sha256": "17e79ef306e7c867de2cd6917dd637a9ed88fdd1259cfcdd1a5a7f1cf0661b71",
+    "support_codes": [
+      [
+        1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      [
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      [
+        1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      [
+        1.0,
+        -1.0,
+        1.0,
+        1.0
+      ],
+      [
+        -1.0,
+        -1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        -1.0,
+        1.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        -1.0,
+        1.0,
+        -1.0
+      ],
+      [
+        1.0,
+        1.0,
+        -1.0,
+        1.0
+      ],
+      [
+        -1.0,
+        1.0,
+        -1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        -1.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        1.0,
+        -1.0,
+        -1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        -1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        1.0,
+        1.0,
+        -1.0
+      ]
+    ],
+    "fit_table": [
+      [
+        -1.0,
+        -1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        -1.0,
+        -1.0,
+        1.0,
+        -1.0,
+        1.0,
+        -1.0
+      ],
+      [
+        1.0,
+        -1.0,
+        1.0,
+        1.0,
+        -1.0,
+        1.0
+      ],
+      [
+        1.0,
+        -1.0,
+        1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        1.0,
+        1.0,
+        1.0,
+        -1.0,
+        1.0
+      ],
+      [
+        -1.0,
+        1.0,
+        1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        -1.0,
+        1.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0,
+        1.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        -1.0,
+        -1.0,
+        1.0,
+        -1.0,
+        -1.0
+      ],
+      [
+        1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      [
+        -1.0,
+        1.0,
+        -1.0,
+        1.0,
+        -1.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        -1.0,
+        1.0,
+        1.0,
+        -1.0
+      ],
+      [
+        1.0,
+        1.0,
+        -1.0,
+        -1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "fit_counts": [
+      265,
+      243,
+      251,
+      239,
+      274,
+      286,
+      258,
+      256,
+      246,
+      221,
+      232,
+      267,
+      255,
+      250,
+      284,
+      269
+    ],
+    "exact_table": [
+      [
+        -1.0,
+        -1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        -1.0,
+        -1.0,
+        1.0,
+        -1.0,
+        1.0,
+        -1.0
+      ],
+      [
+        1.0,
+        -1.0,
+        1.0,
+        1.0,
+        -1.0,
+        1.0
+      ],
+      [
+        1.0,
+        -1.0,
+        1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        1.0,
+        1.0,
+        1.0,
+        -1.0,
+        1.0
+      ],
+      [
+        -1.0,
+        1.0,
+        1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        -1.0,
+        1.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0,
+        1.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        -1.0,
+        -1.0,
+        1.0,
+        -1.0,
+        -1.0
+      ],
+      [
+        1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      [
+        -1.0,
+        1.0,
+        -1.0,
+        1.0,
+        -1.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        -1.0,
+        1.0,
+        1.0,
+        -1.0
+      ],
+      [
+        1.0,
+        1.0,
+        -1.0,
+        -1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "exact_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "seconds": {
+      "write": 0.039767374999428284,
+      "query_state_gather": 0.0003540840007190127,
+      "ordinary_read": 0.005002042000342044,
+      "fitted_reader_build_including_write": 0.0011652500015770784,
+      "exact_reader_build": 5.9208001403021626e-05,
+      "fitted_read": 0.0010630420001689345,
+      "exact_read": 0.001043457999912789
+    },
+    "state_bytes": 512,
+    "reader_table_bytes": 768,
+    "reader_count_bytes": 128,
+    "occupied_codes": 16,
+    "state_read_immutable": true
+  }
+}

@@ -1,0 +1,478 @@
+{
+  "expected": {
+    "ordinary": {
+      "expected_ab": {
+        "mse": 2.8066722130329396e-14,
+        "accuracy": 1.0
+      },
+      "expected_cd": {
+        "mse": 4.197276436175802e-14,
+        "accuracy": 1.0
+      },
+      "parity2": {
+        "mse": 1.8204474696316013,
+        "accuracy": 0.5783935546875
+      },
+      "parity4": {
+        "mse": 2.422528315819206,
+        "accuracy": 0.52001953125
+      },
+      "agree_ab": {
+        "mse": 0.32935219479220595,
+        "accuracy": 0.9255126953125
+      }
+    },
+    "clipped": {
+      "expected_ab": {
+        "mse": 1.1489635265439946e-14,
+        "accuracy": 1.0
+      },
+      "expected_cd": {
+        "mse": 1.3805129213279048e-14,
+        "accuracy": 1.0
+      },
+      "parity2": {
+        "mse": 1.5778169673516973,
+        "accuracy": 0.5783935546875
+      },
+      "parity4": {
+        "mse": 1.713512161310875,
+        "accuracy": 0.52001953125
+      },
+      "agree_ab": {
+        "mse": 0.30934864808715595,
+        "accuracy": 0.9255126953125
+      }
+    },
+    "fitted": {
+      "expected_ab": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "expected_cd": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "parity2": {
+        "mse": 0.38717635383360177,
+        "accuracy": 0.80712890625
+      },
+      "parity4": {
+        "mse": 0.5117417098672015,
+        "accuracy": 0.743359375
+      },
+      "agree_ab": {
+        "mse": 0.13610410323450947,
+        "accuracy": 0.9322998046875
+      }
+    },
+    "exact": {
+      "expected_ab": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "expected_cd": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "parity2": {
+        "mse": 0.3869384765625,
+        "accuracy": 0.8091796875
+      },
+      "parity4": {
+        "mse": 0.51123046875,
+        "accuracy": 0.74736328125
+      },
+      "agree_ab": {
+        "mse": 0.136279296875,
+        "accuracy": 0.9316650390625
+      }
+    },
+    "population_optimal_mse": {
+      "expected_ab": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "expected_cd": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "parity2": {
+        "mean": 0.3875,
+        "min": 0.0,
+        "max": 0.75
+      },
+      "parity4": {
+        "mean": 0.51171875,
+        "min": 0.0,
+        "max": 0.9375
+      },
+      "agree_ab": {
+        "mean": 0.1375,
+        "min": 0.0,
+        "max": 0.25
+      }
+    },
+    "meanonly_agreement_population_mse": 0.234375,
+    "meanonly_agreement_excess": 0.096875
+  },
+  "broad": {
+    "ordinary": {
+      "expected_ab": {
+        "mse": 1.0717835466317706e-07,
+        "accuracy": 1.0
+      },
+      "expected_cd": {
+        "mse": 1.1553893051481402e-07,
+        "accuracy": 1.0
+      },
+      "parity2": {
+        "mse": 8.583209742523127e-08,
+        "accuracy": 1.0
+      },
+      "parity4": {
+        "mse": 1.855514460241972e-07,
+        "accuracy": 1.0
+      },
+      "agree_ab": {
+        "mse": 1.0679746754763327e-07,
+        "accuracy": 1.0
+      }
+    },
+    "clipped": {
+      "expected_ab": {
+        "mse": 6.326273077140484e-08,
+        "accuracy": 1.0
+      },
+      "expected_cd": {
+        "mse": 5.676876184728396e-08,
+        "accuracy": 1.0
+      },
+      "parity2": {
+        "mse": 5.9487847289809945e-08,
+        "accuracy": 1.0
+      },
+      "parity4": {
+        "mse": 1.4037685658832248e-07,
+        "accuracy": 1.0
+      },
+      "agree_ab": {
+        "mse": 6.15691513964447e-08,
+        "accuracy": 1.0
+      }
+    },
+    "fitted": {
+      "expected_ab": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "expected_cd": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "parity2": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "parity4": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "agree_ab": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      }
+    },
+    "exact": {
+      "expected_ab": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "expected_cd": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "parity2": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "parity4": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "agree_ab": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      }
+    },
+    "population_optimal_mse": {
+      "expected_ab": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "expected_cd": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "parity2": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "parity4": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "agree_ab": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    "meanonly_agreement_population_mse": 0.0,
+    "meanonly_agreement_excess": 0.0
+  },
+  "full_raw": {
+    "ordinary": {
+      "expected_ab": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "expected_cd": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "parity2": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "parity4": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "agree_ab": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      }
+    },
+    "clipped": {
+      "expected_ab": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "expected_cd": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "parity2": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "parity4": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "agree_ab": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      }
+    },
+    "fitted": {
+      "expected_ab": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "expected_cd": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "parity2": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "parity4": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "agree_ab": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      }
+    },
+    "exact": {
+      "expected_ab": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "expected_cd": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "parity2": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "parity4": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "agree_ab": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      }
+    },
+    "population_optimal_mse": {
+      "expected_ab": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "expected_cd": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "parity2": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "parity4": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "agree_ab": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    "meanonly_agreement_population_mse": 0.0,
+    "meanonly_agreement_excess": 0.0
+  },
+  "parities": {
+    "ordinary": {
+      "expected_ab": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "expected_cd": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "parity2": {
+        "mse": 1.999609375,
+        "accuracy": 0.50009765625
+      },
+      "parity4": {
+        "mse": 1.9888671875,
+        "accuracy": 0.502783203125
+      },
+      "agree_ab": {
+        "mse": 1.01162109375,
+        "accuracy": 0.7470947265625
+      }
+    },
+    "clipped": {
+      "expected_ab": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "expected_cd": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "parity2": {
+        "mse": 1.999609375,
+        "accuracy": 0.50009765625
+      },
+      "parity4": {
+        "mse": 1.9888671875,
+        "accuracy": 0.502783203125
+      },
+      "agree_ab": {
+        "mse": 1.01162109375,
+        "accuracy": 0.7470947265625
+      }
+    },
+    "fitted": {
+      "expected_ab": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "expected_cd": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "parity2": {
+        "mse": 0.9999899114503403,
+        "accuracy": 0.5000244140625
+      },
+      "parity4": {
+        "mse": 1.0000000176052404,
+        "accuracy": 0.4987060546875
+      },
+      "agree_ab": {
+        "mse": 0.5027306681526345,
+        "accuracy": 0.748583984375
+      }
+    },
+    "exact": {
+      "expected_ab": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "expected_cd": {
+        "mse": 0.0,
+        "accuracy": 1.0
+      },
+      "parity2": {
+        "mse": 1.0,
+        "accuracy": 0.50009765625
+      },
+      "parity4": {
+        "mse": 1.0,
+        "accuracy": 0.502783203125
+      },
+      "agree_ab": {
+        "mse": 0.502734375,
+        "accuracy": 0.7470947265625
+      }
+    },
+    "population_optimal_mse": {
+      "expected_ab": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "expected_cd": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "parity2": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "parity4": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "agree_ab": {
+        "mean": 0.5,
+        "min": 0.5,
+        "max": 0.5
+      }
+    },
+    "meanonly_agreement_population_mse": 0.75,
+    "meanonly_agreement_excess": 0.25
+  }
+}

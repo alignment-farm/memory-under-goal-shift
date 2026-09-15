@@ -1,0 +1,5 @@
+{
+  "full_evidence_query_tuples": 65536,
+  "independent_truth_check": true,
+  "autograd_write": true
+}

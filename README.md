@@ -1,9 +1,11 @@
 # Memory under goal shift
 
-**Status: linear and nonlinear publications accepted; third phase commissioned, 15 September 2026.**
-Read [FUTURE_USE.md](FUTURE_USE.md) for the current investigation of later
-combinations and relations beyond writer-training coverage. Preparation has
-not run third-phase experiments.
+**Status: third-phase investigation completed, 15 September 2026; linear and nonlinear publications preserved.**
+Read [future-use/FINDINGS.md](future-use/FINDINGS.md) for the new cross-event
+composition results and [future-use/README.md](future-use/README.md) to reproduce
+them. Reader repair recovers substantial utility; exact relational uncertainty
+remains in three of five narrow writers. Broad and explicit full retention
+answer every tested composition. [FUTURE_USE.md](FUTURE_USE.md) preserves the commission.
 
 Read [FINDINGS.md](FINDINGS.md) for the preserved linear study and
 [followup/FINDINGS.md](followup/FINDINGS.md) for the completed nonlinear experiment. Learned
@@ -90,8 +92,8 @@ simplification:
 
 The sibling [neural-memory-depth](../neural-memory-depth/README.md) supplied
 pinned reading artifacts, but no executable dependency. The two publications
-establish distinctions within linear and finite nonlinear settings. The current
-[third phase](FUTURE_USE.md) investigates later uses beyond directly covered
-targets while preserving those publications and evidence. [AGENTS.md](AGENTS.md) retains the operating
+establish distinctions within linear and finite nonlinear settings. The completed
+[third phase](future-use/FINDINGS.md) tests later cross-event compositions beyond
+directly covered targets while preserving those publications and evidence. [AGENTS.md](AGENTS.md) retains the operating
 instructions and available resources. Root synthesis remains separate under
 the [ancillary-study approach](../../construct-2/notes/ANCILLARY_STUDY.md).
