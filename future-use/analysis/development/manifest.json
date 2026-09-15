@@ -1,0 +1,25 @@
+{
+  "stage": "development",
+  "seeds": [
+    90,
+    91
+  ],
+  "histories_per_seed": 512,
+  "fit_records": 4096,
+  "base": 4100000,
+  "script_sha256": "4e32b09743ca4388b0048d18d5399389565819905c0eeb54bda9c29257e2916e",
+  "protocol_sha256": "01a2c8b7682f069926ed3c630f724ee104b73f46e5f4e91cf49c98a53cf174be",
+  "lock_sha256": "4ed2a5c3869403e8cbcf25f08c99a879078bd523a8139205cce592fe427cc70d",
+  "python": "3.14.7",
+  "torch": "2.14.0",
+  "numpy": "2.4.6",
+  "threads": 1,
+  "device": "cpu",
+  "donors": {
+    "s90-r4-expected.json": "6585b893330945f756b25fb03a6bdb20d0554ffa716843361b193e9156b35e68",
+    "s90-r4-broad.json": "be2f64bb9ead9a8c3d1e65443e6a58de1b18d98371c51ac81bc92e4a1f22e0ab",
+    "s91-r4-expected.json": "d01c7e88b009f4e30f3636f80832fab7471c1168e0c3b8e861d5046005292287",
+    "s91-r4-broad.json": "20acbe1a60029a2ae36df25f6373d0a935053fedcaa4591ed25aaa4c752b8637"
+  },
+  "utc": "2026-09-15T08:48:35Z"
+}

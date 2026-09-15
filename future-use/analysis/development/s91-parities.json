@@ -1,0 +1,366 @@
+{
+  "seed": 91,
+  "objective": "parities",
+  "shared_parameter_bytes": 0,
+  "result": {
+    "metrics": {
+      "ordinary": {
+        "expected_ab": {
+          "mse": 0.0,
+          "accuracy": 1.0
+        },
+        "expected_cd": {
+          "mse": 0.0,
+          "accuracy": 1.0
+        },
+        "parity2": {
+          "mse": 1.9296875,
+          "accuracy": 0.517578125
+        },
+        "parity4": {
+          "mse": 2.078125,
+          "accuracy": 0.48046875
+        },
+        "agree_ab": {
+          "mse": 0.921875,
+          "accuracy": 0.76953125
+        }
+      },
+      "clipped": {
+        "expected_ab": {
+          "mse": 0.0,
+          "accuracy": 1.0
+        },
+        "expected_cd": {
+          "mse": 0.0,
+          "accuracy": 1.0
+        },
+        "parity2": {
+          "mse": 1.9296875,
+          "accuracy": 0.517578125
+        },
+        "parity4": {
+          "mse": 2.078125,
+          "accuracy": 0.48046875
+        },
+        "agree_ab": {
+          "mse": 0.921875,
+          "accuracy": 0.76953125
+        }
+      },
+      "fitted": {
+        "expected_ab": {
+          "mse": 0.0,
+          "accuracy": 1.0
+        },
+        "expected_cd": {
+          "mse": 0.0,
+          "accuracy": 1.0
+        },
+        "parity2": {
+          "mse": 1.0000196145525655,
+          "accuracy": 0.501953125
+        },
+        "parity4": {
+          "mse": 1.000000120328424,
+          "accuracy": 0.498046875
+        },
+        "agree_ab": {
+          "mse": 0.4648326117379514,
+          "accuracy": 0.767578125
+        }
+      },
+      "exact": {
+        "expected_ab": {
+          "mse": 0.0,
+          "accuracy": 1.0
+        },
+        "expected_cd": {
+          "mse": 0.0,
+          "accuracy": 1.0
+        },
+        "parity2": {
+          "mse": 1.0,
+          "accuracy": 0.517578125
+        },
+        "parity4": {
+          "mse": 1.0,
+          "accuracy": 0.48046875
+        },
+        "agree_ab": {
+          "mse": 0.46484375,
+          "accuracy": 0.76953125
+        }
+      }
+    },
+    "population_optimal_mse": {
+      "expected_ab": 0.0,
+      "expected_cd": 0.0,
+      "parity2": 1.0,
+      "parity4": 1.0,
+      "agree_ab": 0.5
+    },
+    "decomposition": {
+      "ordinary": {
+        "expected_ab": {
+          "conditional_variance": 0.0,
+          "reader_excess": 0.0,
+          "finite_sample_cross_term": 0.0,
+          "sample_noise": 0.0
+        },
+        "expected_cd": {
+          "conditional_variance": 0.0,
+          "reader_excess": 0.0,
+          "finite_sample_cross_term": 0.0,
+          "sample_noise": 0.0
+        },
+        "parity2": {
+          "conditional_variance": 1.0,
+          "reader_excess": 1.0,
+          "finite_sample_cross_term": -0.0703125,
+          "sample_noise": 0.0
+        },
+        "parity4": {
+          "conditional_variance": 1.0,
+          "reader_excess": 1.0,
+          "finite_sample_cross_term": 0.078125,
+          "sample_noise": 0.0
+        },
+        "agree_ab": {
+          "conditional_variance": 0.46484375,
+          "reader_excess": 0.46484375,
+          "finite_sample_cross_term": -0.0078125,
+          "sample_noise": 0.0
+        }
+      },
+      "clipped": {
+        "expected_ab": {
+          "conditional_variance": 0.0,
+          "reader_excess": 0.0,
+          "finite_sample_cross_term": 0.0,
+          "sample_noise": 0.0
+        },
+        "expected_cd": {
+          "conditional_variance": 0.0,
+          "reader_excess": 0.0,
+          "finite_sample_cross_term": 0.0,
+          "sample_noise": 0.0
+        },
+        "parity2": {
+          "conditional_variance": 1.0,
+          "reader_excess": 1.0,
+          "finite_sample_cross_term": -0.0703125,
+          "sample_noise": 0.0
+        },
+        "parity4": {
+          "conditional_variance": 1.0,
+          "reader_excess": 1.0,
+          "finite_sample_cross_term": 0.078125,
+          "sample_noise": 0.0
+        },
+        "agree_ab": {
+          "conditional_variance": 0.46484375,
+          "reader_excess": 0.46484375,
+          "finite_sample_cross_term": -0.0078125,
+          "sample_noise": 0.0
+        }
+      },
+      "fitted": {
+        "expected_ab": {
+          "conditional_variance": 0.0,
+          "reader_excess": 0.0,
+          "finite_sample_cross_term": 0.0,
+          "sample_noise": 0.0
+        },
+        "expected_cd": {
+          "conditional_variance": 0.0,
+          "reader_excess": 0.0,
+          "finite_sample_cross_term": 0.0,
+          "sample_noise": 0.0
+        },
+        "parity2": {
+          "conditional_variance": 1.0,
+          "reader_excess": 1.205512430705463e-06,
+          "finite_sample_cross_term": 1.8409040134778563e-05,
+          "sample_noise": 0.0
+        },
+        "parity4": {
+          "conditional_variance": 1.0,
+          "reader_excess": 1.9676705068759563e-12,
+          "finite_sample_cross_term": 1.2032645640819124e-07,
+          "sample_noise": 0.0
+        },
+        "agree_ab": {
+          "conditional_variance": 0.46484375,
+          "reader_excess": 1.096435482890044e-06,
+          "finite_sample_cross_term": -1.2234697531503334e-05,
+          "sample_noise": 0.0
+        }
+      }
+    },
+    "state_sha256": "393bb795af28a3da30448f08c06e473b4876d131aabe385a80902e1e8c4a6051",
+    "data_sha256": "96d58c7813974306c0582f3fa0199d2d6cf26f771c37ab3f3b65f21d39030f72",
+    "fit_sha256": "720d31f373eef6b08867c30dfb2b2915c046a4fc5600cedb67d753e8d62f677a",
+    "query_sha256": "1f59cf087bf8fd930746e5769787adf1159c153125ef17263d5b1557080d6852",
+    "support_codes": [
+      [
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        -1.0
+      ],
+      [
+        1.0,
+        -1.0
+      ],
+      [
+        1.0,
+        1.0
+      ],
+      [
+        -1.0,
+        1.0
+      ],
+      [
+        -1.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        1.0
+      ],
+      [
+        -1.0,
+        1.0
+      ],
+      [
+        -1.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        -1.0
+      ],
+      [
+        1.0,
+        -1.0
+      ],
+      [
+        1.0,
+        1.0
+      ]
+    ],
+    "fit_table": [
+      [
+        -0.007984031936127744,
+        0.007984031936127744,
+        -0.02594810379241517,
+        0.02594810379241517,
+        -1.0,
+        -1.0
+      ],
+      [
+        0.0029498525073746312,
+        0.0029498525073746312,
+        0.0344149459193707,
+        -0.0344149459193707,
+        1.0,
+        -1.0
+      ],
+      [
+        0.010587102983638113,
+        -0.010587102983638113,
+        0.03368623676612127,
+        0.03368623676612127,
+        -1.0,
+        1.0
+      ],
+      [
+        -0.0674373795761079,
+        -0.0674373795761079,
+        0.036608863198458574,
+        0.036608863198458574,
+        1.0,
+        1.0
+      ]
+    ],
+    "fit_counts": [
+      1002,
+      1017,
+      1039,
+      1038
+    ],
+    "exact_table": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        -1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "exact_counts": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "seconds": {
+      "write": 0.0005446249997476116,
+      "query_state_gather": 3.470900082902517e-05,
+      "ordinary_read": 5.80830001126742e-05,
+      "fitted_reader_build_including_write": 0.000508917000843212,
+      "exact_reader_build": 2.3458000214304775e-05,
+      "fitted_read": 7.816700053808745e-05,
+      "exact_read": 6.6917000367539e-05
+    },
+    "state_bytes": 256,
+    "reader_table_bytes": 192,
+    "reader_count_bytes": 32,
+    "occupied_codes": 4,
+    "state_read_immutable": true
+  }
+}
