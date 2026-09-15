@@ -1,8 +1,12 @@
 # Memory under goal shift
 
-**Status: first publication accepted; nonlinear follow-up completed, 14 September 2026.**
+**Status: linear and nonlinear publications accepted; third phase commissioned, 15 September 2026.**
+Read [FUTURE_USE.md](FUTURE_USE.md) for the current investigation of later
+combinations and relations beyond writer-training coverage. Preparation has
+not run third-phase experiments.
+
 Read [FINDINGS.md](FINDINGS.md) for the preserved linear study and
-[followup/FINDINGS.md](followup/FINDINGS.md) for the new experiment. Learned
+[followup/FINDINGS.md](followup/FINDINGS.md) for the completed nonlinear experiment. Learned
 nonlinear codes exhibit both reader failure and exact collision uncertainty;
 broad reconstruction and explicit full records retain all fields. The
 [follow-up reproduction guide](followup/README.md) links protocols and evidence.
@@ -85,9 +89,9 @@ simplification:
   views and gradient-updated recurrent state; the elementary implementation lead.
 
 The sibling [neural-memory-depth](../neural-memory-depth/README.md) supplied
-pinned reading artifacts, but no executable dependency. The first study reached
-explanatory closure within its linear setting. The commissioned
-[follow-up](FOLLOWUP.md) extends that setting while preserving the accepted
-publication and evidence. [AGENTS.md](AGENTS.md) retains the operating
+pinned reading artifacts, but no executable dependency. The two publications
+establish distinctions within linear and finite nonlinear settings. The current
+[third phase](FUTURE_USE.md) investigates later uses beyond directly covered
+targets while preserving those publications and evidence. [AGENTS.md](AGENTS.md) retains the operating
 instructions and available resources. Root synthesis remains separate under
 the [ancillary-study approach](../../construct-2/notes/ANCILLARY_STUDY.md).
